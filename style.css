@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    background-color: purple;
+    width: 9em;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+}
+
+.dashboard {
+    display: flex;
+}
+
+.dashboard-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.nav {
+    display: flex;
+}
+
+.top {
+    width: 100%;
+    background-color: blue;
+    height: 6em;
+    position: sticky;
+}
