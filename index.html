@@ -3,15 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="dashboard">
-      <header></header>
+      <header class="header">
+        <div class="nav-head">
+          <h1>CSSS</h1>
+          <i class="fas fa-angle-double-left back"></i>
+        </div>
+        <div class="nav">
+          <div class="links"></div>
+          <div class="actions"></div>
+        </div>
+      </header>
       <div class="dashboard-content">
-        <div class="top">hi</div>
-        <div class="content">alksd</div>
+        <div class="top">
+          <div class="left-align">
+            <!-- Menu section -->
+
+            <div class="menu-icon">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar short"></span>
+            </div>
+
+            <!-- Greeting section -->
+
+            <div class="greeting">
+              <h2>Welcome back,</h2>
+              <div class="user-info">
+                <img src="https://picsum.photos/200" alt="" />
+                <h1 class="username">Amare Misgana</h1>
+              </div>
+            </div>
+          </div>
+
+          <!-- Search bar Section  -->
+
+          <div class="search">
+            <form action="" class="search-form" method="post">
+              <i class="fas fa-search"></i>
+              <input
+                type="text"
+                name="search-query"
+                id="search-query"
+                placeholder="Search for Students or Teachers"
+              />
+            </form>
+          </div>
+        </div>
+        <div class="content"></div>
       </div>
     </div>
     <script src="script.js"></script>
